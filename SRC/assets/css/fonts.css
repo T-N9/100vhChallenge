@@ -1,0 +1,21 @@
+@font-face{
+    font-family: "Helios Regular";
+    src: url("../fonts/Helios\ Regular.woff") format("woff");
+}
+@font-face{
+    font-family: "Helios Rounded";
+    src: url("../fonts/Helios\ Rounded.woff") format("woff");
+}
+@font-face{
+    font-family: "Teka Medium";
+    src: url("../fonts/Teko-Medium.ttf") format("truetype");
+}
+.helios-regular{
+    font-family: "Helios Regular";
+}
+.helios-rounded{
+    font-family: "Helios Rounded";
+}
+.teka-medium{
+    font-family: "Teka Medium";
+}
