@@ -1,0 +1,138 @@
+/* @keyframes bg-animate{
+
+    0%{
+        backdrop-filter: blur(10px);
+    }
+    5%{
+        backdrop-filter: blur(5px);
+    }
+    10%{
+        backdrop-filter: blur(0px);
+    }
+    15%{
+        backdrop-filter: blur(2px);
+    }
+    20%{
+        backdrop-filter: blur(3px);
+    }
+    25%{
+        backdrop-filter: blur(5px);
+    }
+    30%{
+        backdrop-filter: blur(2px);
+    }
+    35%{
+        backdrop-filter: blur(0px);
+    }
+    40%{
+        backdrop-filter: blur(2px);
+    }
+    45%{
+        backdrop-filter: blur(5px);
+    }
+    50%{
+        backdrop-filter: blur(8px);
+    }
+    55%{
+        backdrop-filter: blur(7px);
+    }
+    60%{
+        backdrop-filter: blur(5px);
+    }
+    30%{
+        backdrop-filter: blur(3px);
+    }
+    65%{
+        backdrop-filter: blur(6px);
+    }
+    70%{
+        backdrop-filter: blur(3px);
+    }
+    75%{
+        backdrop-filter: blur(2px);
+    }
+    80%{
+        backdrop-filter: blur(1px);
+    }
+    85%{
+        backdrop-filter: blur(3px);
+    }
+    90%{
+        backdrop-filter: blur(5px);
+    }
+    95%{
+        backdrop-filter: blur(3px);
+    }
+    100%{
+        backdrop-filter: blur(0px);
+    }
+} */
+
+@keyframes bg-animate{
+    0%{
+        backdrop-filter: brightness(80%);
+    }
+    5%{
+        backdrop-filter: brightness(90%);
+    }
+    10%{
+        backdrop-filter: brightness(100%);
+    }
+    15%{
+        backdrop-filter: brightness(95%);
+    }
+    20%{
+        backdrop-filter: brightness(100%);
+    }
+    25%{
+        backdrop-filter: brightness(95%);
+    }
+    30%{
+        backdrop-filter: brightness(90%);
+    }
+    35%{
+        backdrop-filter: brightness(85%);
+    }
+    40%{
+        backdrop-filter: brightness(90%);
+    }
+    45%{
+        backdrop-filter: brightness(95%);
+    }
+    50%{
+        backdrop-filter: brightness(100%);
+    }
+    55%{
+        backdrop-filter: brightness(95%);
+    }
+    60%{
+        backdrop-filter: brightness(90%);
+    }
+    30%{
+        backdrop-filter: brightness(95%);
+    }
+    65%{
+        backdrop-filter: brightness(90%);
+    }
+    70%{
+        backdrop-filter: brightness(85%);
+    }
+    75%{
+        backdrop-filter: brightness(80%);
+    }
+    80%{
+        backdrop-filter: brightness(85%);
+    }
+    85%{
+        backdrop-filter: brightness(80%);
+    }
+    90%{
+        backdrop-filter: brightness(85%);
+    }
+    95%{
+        backdrop-filter: brightness(95%);
+    }
+    100%{
+        backdrop-filter: brightness(100%);
+    }
+}

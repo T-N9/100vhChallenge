@@ -3,6 +3,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
+    
 }
 #homePage::before{
     content: "";
@@ -13,6 +14,7 @@
     left: 0;
     background-color: #00000030;
     z-index: 0;
+    animation: bg-animate 20s linear;
 }
 #title{
     text-shadow: 2px 1px 6px #ffffff67;
