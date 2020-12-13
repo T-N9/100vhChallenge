@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>
-<body>
+<body onload="typeWriter()">
     <section id="homePage" class="w-full h-screen relative">
         <div class="absolute z-50 w-full h-full flex justify-end items-center">
             <div id="content" class="text-right mr-6 md:mr-28">
                 <h1 id="title" class="helios-regular text-white text-5xl md:text-8xl">
-                    100vh<br> Challenge
+                    <span id="t1"></span> <br> <span id="t2"></span>
                 </h1>
-                <h4 class="helios-rounded text-white text-lg md:text-2xl">
-                    by tenyain moe lwin
+                <h4 id="byMe" class="helios-rounded text-white text-lg md:text-2xl">
+                    
                 </h4>
                 <a href="#">
                     <div id="mainBtn" class="inline-block teka-medium text-white">
@@ -43,5 +43,7 @@
             </div>
         </div>
     </section>
+
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
