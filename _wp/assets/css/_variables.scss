@@ -1,0 +1,28 @@
+// 1
+@font-face {
+    font-family: SegoeUI;
+    src: url(../fonts/segoeuib.ttf);
+}
+
+@mixin centering-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch-off{
+    left: 10px;
+    
+}
+.bg-orangered{
+    background-image:linear-gradient(to left, #160364, #2e5090 )  !important;
+}
+.switch-on{
+    left: 114px; 
+}
+.oranges{
+    span{
+        color: #2e5090;
+    }
+
+}

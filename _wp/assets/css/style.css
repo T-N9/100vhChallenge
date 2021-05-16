@@ -1,0 +1,132 @@
+@font-face {
+  font-family: SegoeUI;
+  src: url(../fonts/segoeuib.ttf);
+}
+
+.switch-off {
+  left: 10px;
+}
+
+.bg-orangered {
+  background-image: -webkit-gradient(linear, right top, left top, from(#160364), to(#2e5090)) !important;
+  background-image: linear-gradient(to left, #160364, #2e5090) !important;
+}
+
+.switch-on {
+  left: 114px;
+}
+
+.oranges span {
+  color: #2e5090;
+}
+
+@media screen and (max-width: 768px) {
+  #mainContent nav img {
+    width: 20% !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #mainContent nav img {
+    width: 30% !important;
+  }
+  #mainContent #wrapper {
+    width: 100% !important;
+    height: 50% !important;
+  }
+}
+
+.d-md-block {
+  display: none;
+}
+
+#mainContent {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: SegoeUI;
+}
+
+#mainContent nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#mainContent nav img {
+  width: 10%;
+}
+
+#mainContent nav ul {
+  width: 30%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
+  margin-bottom: 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#mainContent #wrapper {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+#mainContent #wrapper h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 4.5rem;
+  color: #2e5090;
+}
+
+#mainContent #wrapper #switchPath {
+  display: table;
+  margin: auto;
+  width: 210px;
+  height: 100px;
+  background-color: #333;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+#mainContent #wrapper #switchPath #switch {
+  position: absolute;
+  width: 40%;
+  height: 80%;
+  background-color: white;
+  border-radius: 50px;
+  top: 10px;
+  -webkit-transition: left 0.3s ease-out;
+  transition: left 0.3s ease-out;
+}
+
+#mainContent #wrapper #connection {
+  margin: 10px 0;
+}
+/*# sourceMappingURL=style.css.map */

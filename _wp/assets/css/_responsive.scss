@@ -1,0 +1,23 @@
+@media screen and (max-width:1200px){
+    
+}
+@media screen and (max-width:992px){
+    
+}
+@media screen and (max-width:768px){
+    #mainContent nav img {
+        width: 20% !important;
+    }
+}
+@media screen and (max-width:576px){
+    #mainContent nav img {
+        width: 30% !important;
+    }
+    #mainContent #wrapper {
+        width: 100% !important;
+        height: 50% !important;
+    }
+
+}
+@media screen and (max-width:375px){
+}
